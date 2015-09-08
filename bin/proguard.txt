@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:60
+-keep class com.akshaykhanna.resitorcolorcodecalc.chalbay.AboutUs { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.akshaykhanna.resitorcolorcodecalc.chalbay.Intro { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.akshaykhanna.resitorcolorcodecalc.chalbay.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.startapp.android.eula.EULAActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.startapp.android.publish.AppWallActivity { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:134
+-keep class com.startapp.android.publish.banner.Banner { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.startapp.android.publish.list3d.List3DActivity { <init>(...); }
+

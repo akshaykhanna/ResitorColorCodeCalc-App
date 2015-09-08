@@ -1,0 +1,140 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+     
+       <LinearLayout
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_weight="16.66">
+  
+     <TextView
+         android:id="@+id/tvC1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="First Color" 
+         />
+
+     <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+</LinearLayout>
+       <LinearLayout
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="16.66"
+     android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+    
+     <TextView
+         android:id="@+id/tvC2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Second Color" />
+
+     <Spinner
+         android:id="@+id/spinner2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+     </LinearLayout>
+       <LinearLayout
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="16.66"
+     android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+     <TextView
+         android:id="@+id/tvC3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Third  Color" />
+
+     <Spinner
+         android:id="@+id/spinner3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+</LinearLayout>
+      <LinearLayout
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="16.66"
+     android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+     <TextView
+         android:id="@+id/tvC3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Tollerance" />
+      <Spinner
+         android:id="@+id/spinner4"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+          />
+</LinearLayout>
+    
+  <ScrollView
+         android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="16.66"
+     android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+         <LinearLayout
+              android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+             android:orientation="vertical" 
+             android:gravity="center"
+             >
+         
+           <TextView
+         
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Resistor resitance Value:"
+         android:textSize="20dp"
+         android:gravity="center" />
+
+
+     <TextView
+         android:id="@+id/tvValue"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="" 
+         android:textSize="30dp"
+         android:layout_gravity="center"/>
+
+    </LinearLayout>
+     </ScrollView>
+  
+     
+     <LinearLayout
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="16.66"
+    android:layout_marginTop="5dp"
+    >
+    <com.startapp.android.publish.banner.Banner 
+android:id="@+id/startAppBanner"
+ android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+         </LinearLayout>
+
+</LinearLayout>
